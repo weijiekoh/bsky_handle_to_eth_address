@@ -1,3 +1,7 @@
+node_modules/
+dist/
+.parcel-cache/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
