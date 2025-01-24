@@ -2,7 +2,7 @@ name: Build and Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ "main" ]  # or your primary branch name
+    branches: [ "master" ]  # or your primary branch name
 
 permissions:
   contents: write
