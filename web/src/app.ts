@@ -15,7 +15,7 @@ const lookup = async () => {
         return;
     }
 
-    info_or_error.textContent = '';
+    info_or_error.textContent = 'Looking up...';
     let handle;
     let did;
     //if (handle_or_did.startswith("did:"): did = handle_or_did
@@ -117,7 +117,13 @@ const lookup = async () => {
 
 const main = async () => {
     const lookupBtn = document.getElementById('lookup');
+    const input = document.getElementById('handle_or_did');
     lookupBtn.addEventListener('click', lookup);
+    input.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+            lookup()
+        }
+    })
 }
 
 main()
