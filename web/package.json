@@ -4,7 +4,7 @@
     "description": "",
     "scripts": {
         "serve": "parcel serve src/index.html",
-        "build": "parcel build src/index.html"
+        "build": "parcel build src/index.html  --public-url /bsky_handle_to_eth_address/"
     },
     "author": "weijiekoh",
     "dependencies": {
