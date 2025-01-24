@@ -8,6 +8,7 @@
     },
     "author": "weijiekoh",
     "dependencies": {
+        "buffer": "^6.0.3",
         "ethers": "^6.13.5",
         "multibase": "^4.0.6",
         "parcel": "2.0.1"

@@ -1,3 +1,4 @@
+import { Buffer } from 'buffer';
 import * as ethers from "ethers";
 import multibase from 'multibase';
 
