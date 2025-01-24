@@ -101,10 +101,10 @@ const lookup = async () => {
     }
 
     if (ethAddresses.length == 0) {
-        info_or_error.textContent = 'No Ethereum addresses found for ' + handleOrDid
+        result.textContent = 'No Ethereum addresses found for ' + handleOrDid
         return
     } else if (ethAddresses.length == 1) {
-        info_or_error.textContent = 'Ethereum address: ' + ethAddresses[0]
+        result.textContent = 'Ethereum address: ' + ethAddresses[0]
     } else {
         let txt = ""
         for (const add of ethAddresses) {
